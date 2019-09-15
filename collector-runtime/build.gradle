@@ -1,0 +1,20 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    api project(':collector-annotations')
+
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+repositories {
+    mavenCentral()
+}

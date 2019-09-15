@@ -1,0 +1,2 @@
+include ':app', ':collector-compiler', ':collector-annotations', ':collector-runtime', ':collector-utils'
+rootProject.name='Collector'
