@@ -3,7 +3,6 @@ package collector.lib;
 import com.squareup.javapoet.ClassName;
 import com.squareup.javapoet.CodeBlock;
 import com.squareup.javapoet.MethodSpec;
-import com.squareup.javapoet.TypeName;
 
 import java.util.HashSet;
 import java.util.List;
@@ -13,8 +12,6 @@ import javax.lang.model.element.AnnotationMirror;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.Modifier;
 import javax.lang.model.element.TypeElement;
-
-import collector.Utils;
 
 @SuppressWarnings("WeakerAccess")
 public class ProcessorUtils {

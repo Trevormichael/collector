@@ -2,7 +2,6 @@ package collector.lib;
 
 import javax.lang.model.element.Element;
 
-import collector.Utils;
 import collector.lib.internal.CollectorSuffix;
 
 @SuppressWarnings("WeakerAccess")

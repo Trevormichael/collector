@@ -1,2 +1,2 @@
-include ':app', ':collector-compiler', ':collector-annotations', ':collector-runtime', ':collector-utils'
+include ':example', ':collector-compiler', ':collector-annotations', ':collector'
 rootProject.name='Collector'

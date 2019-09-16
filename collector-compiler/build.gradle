@@ -5,7 +5,6 @@ dependencies {
 
     implementation deps.javapoet
     implementation project(':collector-annotations')
-    implementation project(':collector-utils')
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8

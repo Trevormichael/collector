@@ -1,4 +1,4 @@
-package collector;
+package collector.lib;
 
 import java.util.List;
 import java.util.function.Function;
