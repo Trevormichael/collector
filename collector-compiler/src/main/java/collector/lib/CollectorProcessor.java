@@ -116,7 +116,7 @@ public class CollectorProcessor extends AbstractProcessor {
                         .build());
 
                 try {
-                    JavaFile.builder("collector.tmc",
+                    JavaFile.builder(packageName,
                             classBuilder.build())
                             .build()
                             .writeTo(filer);
