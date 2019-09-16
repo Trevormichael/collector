@@ -64,7 +64,9 @@ public class CollectorProcessor extends AbstractProcessor {
 
                 ClassName typeClassName = ClassName.get(packageName, typeName);
 
-                TypeSpec.Builder classBuilder = TypeSpec.classBuilder(typeElement.getSimpleName() + CollectorConfig.COLLECTOR_CLASS_SUFFIX)
+                ClassName generatedClassName = ClassName.get(packageName, typeElement.getSimpleName() + CollectorConfig.COLLECTOR_CLASS_SUFFIX);
+
+                TypeSpec.Builder classBuilder = TypeSpec.classBuilder(generatedClassName)
                         .addModifiers(Modifier.PUBLIC)
                         .addAnnotation(Keep.class);
 
